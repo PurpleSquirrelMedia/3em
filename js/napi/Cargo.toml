@@ -14,7 +14,7 @@ lto = true
 [dependencies]
 napi = { version = "2", features = ["serde-json", "async"] }
 serde_json = "1"
-tokio = { version = "1.10.1", features = ["full"] }
+tokio = { version = "1.18.5", features = ["full"] }
 napi-derive = "2"
 three_em_executor = { version = "0.2.0", path = "../../crates/executor" }
 three_em_arweave = { version = "0.2.0", path = "../../crates/arweave" }
